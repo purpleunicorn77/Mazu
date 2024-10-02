@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  color: blue;
+  font-family: times;
+  margin: 0;
+  padding: 0;
+}
+
+Canvas {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 90%; /* Ensures the text doesn't touch screen edges */
+}
+
+img {
+  display: block;
+  margin: 10px auto 0 auto;
+  max-width: 100%;
+  height: auto;
+}
